@@ -1,11 +1,45 @@
 import Card from "./Card";
 
-export default function iD_Card (): any{
+export default  function Home (){
   return(
+    <div >
+        <Card name='Noor UL Saba'
+        rollnum='134'
+        distance ='No'
+        city='Karachi'
+      center='Goverer House Karachi'
+        capmus='Main'
+        days='Saturday 09:00PM - 12:00PM'
+        img='/im.jpg'
+        />
+
+<Card name='Iqra'
+        rollnum='132'
+        distance ='No'
+        city='Karachi'
+      center='Goverer House Karachi'
+        capmus='Main'
+        days='Friday 09:00PM - 12:00PM'
+        img='/gils.jpg'
+        />
+
+<Card name='Saima'
+        rollnum='136'
+        distance ='No'
+        city='Karachi'
+      center='Goverer House Karachi'
+        capmus='Main'
+        days='Saturday 02:00PM - 5:00PM'
+        img='/girls.jpg'
+        />
+
     
-    <div>
-      <Card/>
+
+       
+
 
     </div>
+
+  
   )
 }
