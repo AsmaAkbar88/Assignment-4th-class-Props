@@ -1,6 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
 
+
+interface Tprops {
+    name : string,
+    rollnum : string,
+    distance : string,
+    city : string,
+    capmus : string,
+    center: string,
+     days : string
+     img : string,
+
+
+}
+
+
 const Card = (props : Tprops) => {
   return (
     <div className='flex flex-col min-h-20 bg-white pt-14 '>
@@ -69,7 +84,7 @@ const Card = (props : Tprops) => {
                 text-white items-center justify-center flex'>
                     <span className='absolute inset-0 bg-blue-500 '
                     style={{width : '50%'}}></span>
-                    <span className=' relative z-10'>Q & WD</span>
+                    <span className=' relative z-10 '>Q & WD</span>
                 </button>
 
                  </div>
@@ -83,7 +98,7 @@ const Card = (props : Tprops) => {
         height={120}
         z-10
         className='rounded-lg mb-6 pt-16 '/>
-        <p className='border-t-2 border-t-slate-400 pt-2 font-bold text-sky-500 mt-8'>Authorized Signature</p>            
+        <p className= 'border-t-2 border-t-slate-400 pt-2 font-bold text-sky-500 mt-8'>Authorized Signature</p>            
             </div>
             </div>
             </div>
