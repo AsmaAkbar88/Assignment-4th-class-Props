@@ -11,6 +11,7 @@ interface Tprops {
     center: string,
      days : string
      img : string,
+     backimg : string
 
 
 }
@@ -31,12 +32,12 @@ const Card = (props : Tprops) => {
                 width={320}
                 height={300}
                 className='opacity-10'/>
-                </div> */}
+                </div> 
 
                                 {/* <<<<<<Details>>>>> */}
 
             
-    <div className='w1/3 pr-4 pt-16  relative z-10 text-sm '>
+    <div className='w1/3 pr-4 pt-14  relative z-10 text-sm '>
 
             {/* <<<<<<logo Section>>>>> */}
             <img src={'/Gove.png'} alt={'Logo'}
@@ -94,8 +95,8 @@ const Card = (props : Tprops) => {
         {/* <<<<<<Right Section>>>>> */}
 <div className='w-1/3 text-center relative z-10'>
         <Image src={props.img} alt={"profile"}
-        width={120}
-        height={120}
+        width={100}
+        height={100}
         z-10
         className='rounded-lg mb-6 pt-16 '/>
         <p className= 'border-t-2 border-t-slate-400 pt-2 font-bold text-sky-500 mt-8'>Authorized Signature</p>            
